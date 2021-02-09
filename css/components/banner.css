@@ -1,0 +1,20 @@
+.banner {
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    text-align: center;
+    background-image: url(images/oia.jpg);
+  }
+  
+  .banner h1 {
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+  }
+  
+  .banner p {
+    color: white;
+    opacity: .7;
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+  }
+  

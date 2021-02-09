@@ -1,0 +1,35 @@
+.card img {
+    width: 150px;
+  }
+
+  .card p {
+    opacity: .5;
+  }
+
+  .card {
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230,230,230);
+    text-align: center;
+    padding: 20px;
+    /*border: 1px solid #e6e6e6e5;*/
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+   /*  display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: space-around;*/
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+  }
+
+  .cards {
+    justify-content: space-between;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    flex-grow: 1;
+  }
+
+
